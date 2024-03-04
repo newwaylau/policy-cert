@@ -1,0 +1,19 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:var(--desktop-body-EN-body-semi-bold-large-font-weight),var(--mobile-EN-disclaimer-font-weight),var(--desktop-EN-bolditalic-font-weight),var(--desktop-body-EN-body-semi-bold-regular-font-weight),var(--desktop-body-EN-body-semi-bold-x-small-font-weight),var(--desktop-EN-disclaimer-font-weight),600,var(--mobile-body-EN-body-regular-font-weight),var(--mobile-body-EN-body-semi-bold-x-small-font-weight),var(--desktop-body-EN-body-regular-font-weight),400,var(--desktop-body-EN-body-regular-large-font-weight),var(--desktop-EN-tags-font-weight),var(--mobile-body-EN-body-regular-large-font-weight),var(--desktop-EN-footer-link-font-weight),700,var(--mobile-body-EN-body-semi-bold-regular-font-weight),var(--mobile-EN-eyebrow-small-font-weight),italic|Noto+Sans+TC:var(--desktop-TC-footer-link-font-weight),var(--desktop-body-TC-body-regular-large-font-weight),var(--desktop-TC-h1-bold-font-weight),var(--desktop-TC-h1-light-font-weight),var(--desktop-TC-h4-bold-font-weight),var(--desktop-body-TC-body-semi-bold-regular-font-weight),var(--desktop-body-TC-body-light-font-weight),400");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
