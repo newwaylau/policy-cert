@@ -1,0 +1,23 @@
+﻿#Requires AutoHotkey v2.0
+
+
+f12::{
+	sleep  300
+	loop 12000000{
+		MouseMove 300, 200
+		MouseMove 300, 300
+		MouseMove 300, 400
+		MouseMove 300, 500
+		MouseMove 300, 600
+		MouseMove 300, 700
+		MouseMove 300, 800
+		MouseMove 300, 900
+		MouseMove 300, 1000
+		MouseMove 300, 1100
+		MouseMove 300, 1200
+		sleep  300
+		if GetKeyState("D") 
+            break
+		}
+	return
+}
